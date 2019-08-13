@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/appterra_1234",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": " EZEDI for Magento provides seamless connectivity of EDI orders as orders into Magento",
+    "authors": [
+    {
+        "name": "appterra",
+        "email": "shubham.vajpayee@appterra.net"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

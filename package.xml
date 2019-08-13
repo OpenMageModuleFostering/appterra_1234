@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>appterra_1234</name>
+    <version>0.1.0</version>
+    <stability>devel</stability>
+    <license>Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary> EZEDI for Magento provides seamless connectivity of EDI orders as orders into Magento</summary>
+    <description>XML messages from EDI transactions are parsed and submitted as orders in Magento.  Alternatively, Appterra can connect additional document types to your account for Orders, Acknowledgements, Advance Shipping Notices and Invoices (requires separate service from Appterra)</description>
+    <notes>XML messages from EDI transactions are parsed and submitted as orders in Magento.  Alternatively, Appterra can connect additional document types to your account for Orders, Acknowledgements, Advance Shipping Notices and Invoices (requires separate service from Appterra)</notes>
+    <authors><author><name>appterra</name><user>appterra</user><email>shubham.vajpayee@appterra.net</email></author></authors>
+    <date>2016-04-02</date>
+    <time>09:25:52</time>
+    <contents><target name="magelocal"><dir name="Rip"><dir name="Learning"><dir name="Block"><dir name="Adminhtml"><dir name="Learning"><dir name="Edit"><file name="Form.php" hash="bba6a578f8ea0a2a539c54fa7e63edc0"/><dir name="Tab"><file name="Form.php" hash="23548a538a35c0050d3b2a35412054b0"/></dir><file name="Tabs.php" hash="d2ea55af76e5e99f5b73554d322c8aef"/></dir><file name="Edit.php" hash="62f345d698658e27a9d6e2112cca7647"/><file name="Grid.php" hash="bc32d0b8503134c67535c145ea9efa37"/></dir><file name="Learning.php" hash="de983d8781e605623f1e91b1e2e93a58"/></dir></dir><dir name="Helper"><file name="Data.php" hash="17620df4dc7e07fd295abdefb71b1dc0"/></dir><dir name="Model"><file name="Learning.php" hash="8e69de616195d5f56f7111507a9c696c"/><dir name="Resource"><dir name="Learning"><file name="Collection.php" hash="2fe01f0f0df15b50e07969ce67cf8852"/></dir><file name="Learning.php" hash="d16c00a9d36176896eccb18303631496"/><file name="Setup.php" hash="69b7bfb9890ca4764c6f4115ad2bd2ab"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="LearningController.php" hash="0c4bf441bb7d173f43e6b33fb09addd3"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="4ad657ca86e83637a7142a458755345f"/><file name="config.xml" hash="fe79c7a695c8f279d3ecf6dc706ae493"/></dir><dir name="sql"><dir name="learning_setup"><file name="mysql4-install-0.1.0.php" hash="16471de0f88b873b72209a53de4867c6"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Rip_Learning.xml" hash="3f9bc52128f33cbecfeabe2bf5fc0449"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="learning.xml" hash="f057c10a762b945d507135cb1463fb0b"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>4.0.0</min><max>7.0.0</max></php></required></dependencies>
+</package>

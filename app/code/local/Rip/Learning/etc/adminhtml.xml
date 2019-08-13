@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <menu>
+	<rip_learning module="learning" translate="title">
+            <title>Appterra</title>
+            <sort_order>100</sort_order>
+            <action>*/learning</action>
+        </rip_learning>
+	
+	
+	
+	</menu>
+	
+    <layout>
+            <updates>
+                <learning>
+                    <file>learning.xml</file>
+                </learning>
+            </updates>
+        </layout>
+	
+</config>
+
+
+ 

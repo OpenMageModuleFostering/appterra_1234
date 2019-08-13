@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <learning_adminhtml_learning_index>
+        <reference name="content">
+            <block type="learning/adminhtml_learning" name="learning" />
+        </reference>
+    </learning_adminhtml_learning_index>
+	
+	
+	<adminhtml_learning_grid>
+        <reference name="root">
+            <block type="learning/adminhtml_learning_grid" name="root" output="toHtml"/>
+        </reference>
+    </adminhtml_learning_grid>
+	
+	
+</layout> 

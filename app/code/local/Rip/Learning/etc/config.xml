@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Rip_Learning>
+            <version>0.1.0</version>    <!-- Version number of your module -->
+        </Rip_Learning>
+    </modules>
+	
+    <frontend>
+        <routers>
+            <mymodule>
+                <use>admin</use>
+                <args>
+                    <module>Rip_Learning</module>
+                    <frontName>testmodule</frontName>
+                </args>
+            </mymodule>
+        </routers>
+    </frontend>
+	
+	<global>
+	
+    
+	
+    <helpers>
+        <learning> 
+            <class>Rip_Learning_Helper</class>
+        </learning>
+    </helpers>
+    
+	<blocks>
+        <learning>
+            <class>Rip_Learning_Block</class>
+        </learning>
+    </blocks>
+	
+	<models>
+        <learning>
+            <class>Rip_Learning_Model</class>
+			<resourceModel>learning_resource</resourceModel>
+        </learning>
+		
+		<learning_resource>
+                <class>Rip_Learning_Model_Resource</class>
+                <entities>
+                    <learning>
+                        <table>learning</table>
+                    </learning>
+                </entities>
+            </learning_resource>
+		</models>
+	
+	
+	 <resources>
+	 <learning_setup>
+                <setup>
+                    <module>Rip_Learning</module>
+					<class>Rip_Learning_Model_Resource_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </learning_setup>
+	 
+	 
+	 
+	 
+	 
+            <learning_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </learning_write>
+            <learning_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </learning_read>
+        </resources>
+	
+	
+	
+	</global>
+	
+	
+	
+	
+	
+	
+<admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <rip_learning before="Mage_Adminhtml">Rip_Learning_Adminhtml</rip_learning>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+
+	
+	
+	
+	
+
+
+</config>
