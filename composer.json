@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/appterra_1234",
+    "name": "openmage-module-fostering\/appterra_1234",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": " EZEDI for Magento provides seamless connectivity of EDI orders as orders into Magento",
     "authors": [
